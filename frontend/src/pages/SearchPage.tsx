@@ -11,7 +11,7 @@ interface SearchPageProps {
   onSearchChange: (query: string) => void
   onSearchSubmit: () => void
   onViewChange: (view: ViewType) => void
-  onSpotSelect: (ParkingSpot) => void
+    onSpotSelect: (spot: ParkingSpot) => void
 }
 
 export default function SearchPage({
